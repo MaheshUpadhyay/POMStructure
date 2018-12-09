@@ -12,7 +12,7 @@ public class SeleniumQTP_RegisterForm_Page_Locator {
 	/*
 	 * Constructor to set current driver to this class driver
 	 * @Param : WebDriver
-	 * @Return : None
+	 * @Return : Page Object
 	 */
 	public SeleniumQTP_RegisterForm_Page_Locator(WebDriver driver){
 		this.driver = driver;
