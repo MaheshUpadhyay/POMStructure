@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class SeleniumQTP_RegisterForm_Page_Locator {
-
+	//WebDriver instance
 	WebDriver driver = null;
 	
 	/*
