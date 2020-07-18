@@ -10,6 +10,6 @@ public class WebButton {
 	 * @Return : None
 	 */
 	public static void click(WebElement ele){
-		ele.click();
+		ele.click();//This will click on Button
 	}
 }
