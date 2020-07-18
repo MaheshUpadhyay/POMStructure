@@ -11,5 +11,6 @@ public class WebButton {
 	 */
 	public static void click(WebElement ele){
 		ele.click();//This will click on Button
+		//commiting on master
 	}
 }
