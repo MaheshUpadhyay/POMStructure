@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
+//Amey is doing implementation
 public class SeleniumQTP_RegisterForm_Page_Locator {
 
 	WebDriver driver = null;
