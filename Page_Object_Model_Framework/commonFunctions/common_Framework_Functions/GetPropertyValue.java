@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.util.Enumeration;
 import java.util.Properties;
 
- 
+//End to End API automation for Knowledgeware
 public class GetPropertyValue {
 	String result = "";
 	InputStream inputStream;
