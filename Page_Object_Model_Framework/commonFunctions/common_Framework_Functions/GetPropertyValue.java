@@ -11,7 +11,7 @@ import java.util.Properties;
 public class GetPropertyValue {
 	String result = "";
 	InputStream inputStream;
-
+	//added for CRUD operation
 	public String getPropValues(String File, String keyToSearch) throws IOException {
  
 		try {
