@@ -7,10 +7,10 @@ import common_Framework_Functions.WebButton;
 import common_Framework_Functions.WebElementCommon;
 import common_Framework_Functions.WebTextBox;
 import seleniumQTP_Page_Locators.SeleniumQTP_RegisterForm_Page_Locator;
-//MyLogin Feature
+//My Login Feature
 public class SeleniumQTP_RegistrationForm_Page_Action {
 	
-	WebDriver driver = null;
+	public WebDriver driver = null;
 	WebElement ele = null;
 	SeleniumQTP_RegisterForm_Page_Locator pageLF = null;
 	
