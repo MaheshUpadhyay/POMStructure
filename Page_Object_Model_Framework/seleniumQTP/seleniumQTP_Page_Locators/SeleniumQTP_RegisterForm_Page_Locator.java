@@ -18,7 +18,7 @@ public class SeleniumQTP_RegisterForm_Page_Locator {
 		this.driver = driver;
 		PageFactory.initElements(this.driver, this);
 	}
-	
+	//I have added all the locators
 	@FindBy(name = "name")
 	private WebElement userName;
 	
