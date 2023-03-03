@@ -41,4 +41,7 @@ public class GetPropertyValue {
 		}
 		return result;
 	}
+	//Added new method to fetch data from property file
+	public static void featchData(){
+	}
 }
