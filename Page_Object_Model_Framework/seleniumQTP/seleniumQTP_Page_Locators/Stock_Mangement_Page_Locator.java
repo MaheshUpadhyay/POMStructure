@@ -8,6 +8,27 @@ import org.openqa.selenium.support.PageFactory;
 public class SeleniumQTP_RegisterForm_Page_Locator {
 	//I am trying GitHub Process
 	WebDriver driver = null;
+
+public WebElement getUserName(){
+		return userName;
+	}
+	
+	@FindBy(name = "password")
+	private WebElement password;
+	
+	/*
+	 * Access password with action class for further action
+	 * @Param : None
+	 * @Return : WebElement
+	 */
+	public WebElement getPassword(){
+		return password;
+	}
+	
+	@FindBy(name = "confirmpassword")
+	private WebElement confPassword;
+	
+
 	
 	/*
 	 * Constructor to set current driver to this class driver
