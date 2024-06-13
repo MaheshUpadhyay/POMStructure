@@ -64,6 +64,23 @@ public WebElement getUserName(){
 		return password;
 	}
 	
+
+//I have added all the locators
+	@FindBy(name = "name")
+	private WebElement userName;
+	
+	/*
+	 * Access userName with action class for further action
+	 * @Param : None
+	 * @Return : WebElement
+	 */
+	public WebElement getUserName(){
+		return userName;
+	}
+	
+	@FindBy(name = "password")
+	private WebElement password;
+
 	@FindBy(name = "confirmpassword")
 	private WebElement confPassword;
 	
