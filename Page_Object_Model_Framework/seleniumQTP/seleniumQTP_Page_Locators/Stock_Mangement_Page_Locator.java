@@ -6,28 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 //Amey is doing implementation
 public class SeleniumQTP_RegisterForm_Page_Locator {
-	//I am trying GitHub Process
-	WebDriver driver = null;
-
-public WebElement getUserName(){
-		return userName;
-	}
-	
-	@FindBy(name = "password")
-	private WebElement password;
-	
-	/*
-	 * Access password with action class for further action
-	 * @Param : None
-	 * @Return : WebElement
-	 */
-	public WebElement getPassword(){
-		return password;
-	}
-	
-	@FindBy(name = "confirmpassword")
-	private WebElement confPassword;
-	
 
 	
 	/*
@@ -65,18 +43,6 @@ public WebElement getUserName(){
 	}
 	
 
-//I have added all the locators
-	@FindBy(name = "name")
-	private WebElement userName;
-	
-	/*
-	 * Access userName with action class for further action
-	 * @Param : None
-	 * @Return : WebElement
-	 */
-	public WebElement getUserName(){
-		return userName;
-	}
 	
 	@FindBy(name = "password")
 	private WebElement password;
