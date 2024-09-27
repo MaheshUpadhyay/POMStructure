@@ -8,6 +8,7 @@ public class WebButton {
 	 * This method is to click on Web Button
 	 * @Param : WebElement
 	 * @Return : None
+	 * @New Change
 	 */
 	public static void click(WebElement ele){
 		ele.click();//This will click on Button
