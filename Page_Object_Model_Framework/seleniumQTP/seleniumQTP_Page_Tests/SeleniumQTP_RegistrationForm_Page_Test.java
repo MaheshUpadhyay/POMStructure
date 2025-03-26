@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import common_Framework_Functions.BaseClass;
 import seleniumQTP_Page_Verifications.SeleniumQTP_RegistrationForm_Page1_Verification;
 import seleniumQTP_Page_Verifications.SeleniumQTP_RegistrationForm_Page_Verification;
-
+//added to test
 public class SeleniumQTP_RegistrationForm_Page_Test extends BaseClass{
   @Test
   public void registrationForm() {
