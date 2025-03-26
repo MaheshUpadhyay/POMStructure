@@ -10,7 +10,7 @@ import org.testng.annotations.AfterMethod;
 
 public class BaseClass {
   public static WebDriver driver = null;
-  public static String CONFIG = "C:/Selenium/FebBatch/Page_Object_Model_Framework/TestData/SeleniumQTP.properties";
+  public static String CONFIG = "Page_Object_Model_Framework/TestData/SeleniumQTP.properties";
   GetPropertyValue properties = new GetPropertyValue();
   
   @BeforeMethod
