@@ -6,10 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 //Amey is doing implementation
 public class SeleniumQTP_RegisterForm_Page_Locator {
-	//I am trying GitHub Process, 
-//I am mahesh
-//Why need this code
-	WebDriver driver = null;
+	//hi
 	
 	/*
 	 * Constructor to set current driver to this class driver
@@ -45,6 +42,11 @@ public class SeleniumQTP_RegisterForm_Page_Locator {
 		return password;
 	}
 	
+
+	
+	@FindBy(name = "password")
+	private WebElement password;
+
 	@FindBy(name = "confirmpassword")
 	private WebElement confPassword;
 	
